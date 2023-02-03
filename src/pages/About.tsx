@@ -1,34 +1,45 @@
-import { Button } from "../components/Button";
+import BeatyFull from '../assets/BeatyFull.png'
 
-export function About() {
+export function About () {
+return(
+<div className="mx-8 flex first-letter">
 
-  return(
-    <div className="my-1 mx-8 mt-20 flex "
-    >
+  <div className=" flex-1 relative">
 
-      <div className="  flex-1 justify-center items-center  my-auto mx-auto" >
-        <h2 className=" font-sans font-bold text-4xl text-['hsla(159, 41%, 10%, 1)']      "> Saúde natural para <br /> os seus cabelos
-        </h2>
+    <div className="static">
+      <div className=" static bg-green-400 -translate-x-[192px] -translate-y-[2.75rem] w-[617px] h-[412px]"></div>
 
-        <p className="font-serif font-normal  text-[#767676] mt-3"> Um salão exclusivo em Belo Horizonte,<br /> especializado em tratamentos naturais</p>
-        <Button title="Agendar um horário"/>
-      </div>
-
-      <div className=" flex-1 relative  ">
-
-        <div className=" static">
-
-          <div className=" static rounded  bg-green-400 w-[581px] h-[405px]"></div>
-
-        <img className=" absolute left-0 -translate-x-[77px] top-[68px] rounded" src="https://plus.unsplash.com/premium_photo-1669675935494-9dae871d6836?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGJlYXV0eSUyMHNhbG9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=561&q=375" 
-        alt="homan bauty" />
-
-        </div>
-
-      </div>
-
-     
-
+      <img className="-translate-x-8 absolute top-0 left-0 " src={BeatyFull} alt="" />
     </div>
-  )
+
+  </div>
+
+  <div className="flex1   mr-[121px]">
+<h2 className=" font-sans font-bold text-4xl text-['hsla(159, 41%, 10%, 1)']" >
+Sobre nós
+</h2>
+<p className="font-serif font-normal  text-[#767676] mt-3">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sagittis arcu quis nisi luctus, id accumsan felis tristique. Proin quis 
+bibendum diam. Sed consequat nisl laoreet eros ultricies pellentesque. Nullam in est porta, pellentesque massa vitae, vehicula risus. 
+ 
+</p>
+
+
+<p className="font-serif font-normal  text-[#767676] mt-3">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem adipisci obcaecati, perspiciatis in asperiores tempore! 
+  Hic cum inventore accusantium. Recusandae ipsam ex magni alias aliquid! Similique vel voluptatum reiciendis neque!
+ 
+</p>
+
+
+<p className="font-serif font-normal  text-[#767676] mt-3">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem adipisci obcaecati, perspiciatis in asperiores tempore! 
+ 
+</p>
+
+
+  </div>
+
+</div>
+)
 }
