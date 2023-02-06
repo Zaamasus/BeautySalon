@@ -1,4 +1,4 @@
-import BeatyFull from '../assets/BeatyFull.png'
+import BeatyFull from '../assets/Image/BeatyFull.png'
 
 export function About () {
 return(
