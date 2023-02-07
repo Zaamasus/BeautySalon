@@ -6,7 +6,7 @@ export function Header () {
 <nav className="p-3 border-gray-200 rounded bg-gray-50 dark:bg-white dark:border-gray-700">
   <div className="container flex flex-wrap items-center justify-between mx-auto">
     <a href="#" className="flex items-center">
-        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-black">beauty <span className="text-green-400">salon</span>. </span>
+        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-black">beauty<span className="text-green-400">salon</span>. </span>
     </a>
     <button data-collapse-toggle="navbar-solid-bg" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-solid-bg" aria-expanded="false">
       <span className="sr-only">Open main menu</span>

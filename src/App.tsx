@@ -3,6 +3,7 @@ import { Home } from "./pages/Home"
 import { About} from "./pages/About"
 import { Services } from "./pages/Services"
 import { Testimonials } from "./pages/Testimonials"
+import { Contact } from "./pages/Contact"
 
 function App() {
 
@@ -14,7 +15,7 @@ return (
     <Header />
   </div>
 
-      {/*About */}
+  {/*About */}
   <div className=" pb-[172px]  about mt-8">
     <Home />
   </div>
@@ -22,7 +23,7 @@ return (
 
   <div className=" border-t-[1px] mb-[160px] border-gray-400 border-solid"></div>
 
-      {/* About */}
+  {/* About */}
   <div className=" pb-[172px] ">
     <About />
   </div>
@@ -30,24 +31,25 @@ return (
 
   <div className=" border-t-[1px] mb-[160px] border-gray-400 border-solid"></div>
 
-      {/* Services */}
+  {/* Services */}
   <div className="services  pb-[172px] ">
     <Services />
   </div>
 
-<div className=" border-t-[1px] mb-[160px] border-gray-400 border-solid"></div>
+  <div className=" border-t-[1px] mb-[160px] border-gray-400 border-solid"></div>
 
-{/* Testimonials */}
+  {/* Testimonials */}
 
-<div className=" services  pb-[172px] ">
-  <Testimonials />
+  <div className=" services  pb-[172px] ">
+    <Testimonials />
+  </div>
+
+  {/* Contact */}
+
+  <div className=" services  pb-[172px] ">
+    <Contact />
+  </div>
 </div>
-</div>
-
-
-
-
-)
-}
+)}
 
 export default App

@@ -1,13 +1,15 @@
+
+
 interface ButtonProps {
-  title: string
+  title: string,
 }
 
-export function Button ({title}:ButtonProps) {
+export function Button (props: ButtonProps) {
 
   return  ( 
     
-  <div className=" text-[16px] font-serif  text-[#ffffff] mt-9 w-[218px] h-[42px] flex  justify-center items-center  rounded bg-green-400">
-    { title }
+  <div className="  text-[16px] font-serif  text-[#ffffff] mt-9 w-[218px] h-[42px] flex  justify-center items-center  rounded bg-green-400">
+    { props.title }
   </div>
      
   )
