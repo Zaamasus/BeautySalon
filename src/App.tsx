@@ -1,9 +1,9 @@
-import { Header } from "./pages/Header"
-import { Home } from "./pages/Home"
-import { About} from "./pages/About"
-import { Services } from "./pages/Services"
-import { Testimonials } from "./pages/Testimonials"
-import { Contact } from "./pages/Contact"
+import { Header } from "./sections/Header"
+import { Home } from "./sections/Home"
+import { About} from "./sections/About"
+import { Services } from "./sections/Services"
+import { Testimonials } from "./sections/Testimonials"
+import { Contact } from "./sections/Contact"
 
 function App() {
 
@@ -36,19 +36,26 @@ return (
     <Services />
   </div>
 
-  <div className=" border-t-[1px] mb-[160px] border-gray-400 border-solid"></div>
 
   {/* Testimonials */}
 
   <div className=" services  pb-[172px] ">
     <Testimonials />
   </div>
+  <div className=" border-t-[1px] mb-[160px] border-gray-400 border-solid"></div>
 
   {/* Contact */}
 
   <div className=" services  pb-[172px] ">
     <Contact />
   </div>
+
+  <div className=" border-t-[1px] mb-[160px] border-gray-400 border-solid"></div>
+
+  <div className=" services  pb-[172px] ">
+    <Contact />
+  </div>
+  
 </div>
 )}
 
