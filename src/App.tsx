@@ -4,6 +4,7 @@ import { About} from "./sections/About"
 import { Services } from "./sections/Services"
 import { Testimonials } from "./sections/Testimonials"
 import { Contact } from "./sections/Contact"
+import { Footer } from "./sections/Footer"
 
 function App() {
 
@@ -50,10 +51,10 @@ return (
     <Contact />
   </div>
 
-  <div className=" border-t-[1px] mb-[160px] border-gray-400 border-solid"></div>
+  <div className="  border-gray-400 border-solid"></div>
 
-  <div className=" services  pb-[172px] ">
-    <Contact />
+  <div className=" services ">
+    <Footer />
   </div>
   
 </div>
