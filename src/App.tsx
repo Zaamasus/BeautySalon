@@ -17,7 +17,7 @@ return (
   </div>
 
   {/*About */}
-  <div className=" pb-[172px]  about mt-8">
+  <div className=" ml-12 pb-[172px]  about mt-8">
     <Home />
   </div>
 

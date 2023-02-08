@@ -2,7 +2,7 @@ import BeatyFull from '../assets/Image/BeatyFull.png'
 
 export function About () {
 return(
-<div className="mx-8 flex first-letter">
+<div className=" flex first-letter ">
 
   <div className=" flex-1 relative">
 
@@ -14,7 +14,7 @@ return(
 
   </div>
 
-  <div className="flex1   mr-[121px]">
+  <div className="flex1  ">
 <h2 className=" font-sans font-bold text-4xl text-['hsla(159, 41%, 10%, 1)']" >
 Sobre nós
 </h2>
