@@ -1,4 +1,3 @@
-import { Button } from "../components/Button";
 import { Whats } from "../components/Whats";
 import  Phone  from '../assets/icons/phone.svg'
 import  Maping  from '../assets/icons/map-pin.svg'
@@ -8,7 +7,7 @@ import  Emails from '../assets/icons/mail.svg'
 export function Contact () {
   return (
     <div className="flex items-center ">
-      <div className=" ml-10 flex-1">
+      <div className="  flex-1">
         <h1 className=" font-sans font-bold text-4xl text-[#0F241D] "> Entre em contato <br /> com a gente!</h1>
         
         <p className=" font-serif font-normal text-lg text-gray-400 mt-3 mb-6  ">

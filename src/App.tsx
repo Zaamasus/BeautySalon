@@ -9,51 +9,54 @@ import { Footer } from "./sections/Footer"
 function App() {
 
 return (
-<div className="">
+  
+<div className=" relative" id="home" >
 
   {/* Header/menu/logo */}
-  <div className="Header">
+  <div className=" fixed top-0 left-0 right-0 z-50">
     <Header />
   </div>
 
+
+
   {/*About */}
-  <div className=" ml-12 pb-[172px]  about mt-8">
+  <div className=" max-sm:ml-3  mt-32 ml-14 pb-[172px]  about 8">
     <Home />
   </div>
 
+  <div className=" border-t-[1px] mb-[160px] border-gray-400 border-solid " id="services"></div>
 
-  <div className=" border-t-[1px] mb-[160px] border-gray-400 border-solid"></div>
 
   {/* About */}
-  <div className=" pb-[172px] ">
+  <div className=" pb-[172px]  ">
     <About />
   </div>
 
 
-  <div className=" border-t-[1px] mb-[160px] border-gray-400 border-solid"></div>
+  <div className=" border-t-[1px] mb-[160px] border-gray-400 border-solid " id="services"></div>
 
   {/* Services */}
-  <div className="services  pb-[172px] ">
+  <div className="max-sm:mx-3  pb-[172px] mx-14 ">
     <Services />
   </div>
 
-
+  <div className=" border-t-[1px] mb-[160px] border-gray-400 border-solid" id="depo"></div>
   {/* Testimonials */}
 
-  <div className=" services  pb-[172px] ">
+  <div className=" max-sm:mx-3 pb-[172px] mx-14" >
     <Testimonials />
   </div>
-  <div className=" border-t-[1px] mb-[160px] border-gray-400 border-solid"></div>
+  <div className=" border-t-[1px] mb-[160px] border-gray-400 border-solid" id="contact"></div>
 
   {/* Contact */}
 
-  <div className=" services  pb-[172px] ">
+  <div className=" max-sm:mx-3 pb-[172px]  mx-14" >
     <Contact />
   </div>
 
   <div className="  border-gray-400 border-solid"></div>
 
-  <div className=" services ">
+  <div className="  ">
     <Footer />
   </div>
   

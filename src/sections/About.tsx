@@ -2,7 +2,7 @@ import BeatyFull from '../assets/Image/BeatyFull.png'
 
 export function About () {
 return(
-<div className=" flex first-letter ">
+<div className=" flex first-letter mr-14 ">
 
   <div className=" flex-1 relative">
 

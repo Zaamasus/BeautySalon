@@ -10,11 +10,11 @@ return(
 
     </div>
      
-     <p className=" mt-6"> @2021 BeautySalon</p>
-     <p className="mt-3  "> Todos os direitos reservados.</p>
+     <p className=" mt-6  text-white"> @2021 BeautySalon</p>
+     <p className="mt-3 text-white "> Todos os direitos reservados.</p>
   </div>
 
-  <div className="flex">  
+  <div className="flex mr-14">  
 <div className="ml-2"> 
 <GrInstagram size={24} height=" 50 " color="white"/>
 </div>

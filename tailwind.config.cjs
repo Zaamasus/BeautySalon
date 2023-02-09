@@ -10,6 +10,8 @@ module.exports = {
       'serif': ['DM sans', 'sans-serif'],
       'News': ['News Cycle', 'sans-serif']
     },
+
+   
     extend: {},
   },
   plugins: [],

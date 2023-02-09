@@ -18,21 +18,21 @@ import 'swiper/css/pagination';
 // import 'swiper/css/scrollbar';
 export function CarruselService () {
   return (
-       <div className='mx-10'>
+       <div className=''>
     <Swiper    // install Swiper modules
-      modules={[ Pagination, A11y]}
+      modules={[ Pagination, A11y, Scrollbar]}
       spaceBetween={100}
       slidesPerView={3}
       navigation
       pagination={{  clickable: true }}
-      scrollbar={{ draggable: false }}
+      scrollbar={{ draggable: true }}
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
     >
 
        {/* Sliede-01 */}
-      <SwiperSlide className='hover:shadow-2xl h-[352px]  shadow-lg border-b-green-400 border-solid border-b-[5px]  rounded'>
-        <div className='' >
+      <SwiperSlide className='h-[400px] '>
+        <div className='hover:shadow-2xl  shadow-lg border-b-green-400 border-solid border-b-[5px]  rounded' >
           
         
         <img className='mx-auto mt-14' src={Capilar} alt="" />
@@ -56,8 +56,8 @@ export function CarruselService () {
 
 
          {/* Sliede-02 */}
-      <SwiperSlide className='hover:shadow-2xl h-[352px]  shadow-lg border-b-green-400 border-solid border-b-[5px]  rounded'>
-        <div className='' >
+      <SwiperSlide className=' h-[400px] '>
+        <div className='hover:shadow-2xl shadow-lg border-b-green-400 border-solid border-b-[5px]  rounded' >
           
         
         <img className='mx-auto mt-14' src={Icon01} alt="" />
@@ -82,8 +82,8 @@ export function CarruselService () {
 
 
     {/* Sliede-03 */}
-      <SwiperSlide className='hover:shadow-2xl h-[352px]  shadow-lg border-b-green-400 border-solid border-b-[5px]  rounded'>
-        <div className='' >
+      <SwiperSlide className='h-[352px]'>
+        <div className='hover:shadow-2xl   shadow-lg border-b-green-400 border-solid border-b-[5px]  rounded' >
           
         
         <img className='mx-auto mt-14' src={Icon02} alt="" />
@@ -108,8 +108,8 @@ export function CarruselService () {
 
     {/* Sliede-04 */}
 
-      <SwiperSlide className='hover:shadow-2xl h-[352px]  shadow-lg border-b-green-400 border-solid border-b-[5px]  rounded'>
-        <div className='' >
+      <SwiperSlide className='h-[400px]'>
+        <div className='hover:shadow-2xl   shadow-lg border-b-green-400 border-solid border-b-[5px]  rounded' >
           
         
         <img className='mx-auto mt-14' src={Capilar} alt="" />
@@ -135,8 +135,8 @@ export function CarruselService () {
 
     {/* Sliede-05 */}
 
-      <SwiperSlide className='hover:shadow-2xl h-[352px]  shadow-lg border-b-green-400 border-solid border-b-[5px]  rounded'>
-        <div className='' >
+      <SwiperSlide className='h-[400px] '>
+        <div className='hover:shadow-2xl  shadow-lg border-b-green-400 border-solid border-b-[5px]  rounded' >
           
         
         <img className='mx-auto mt-14' src={Capilar} alt="" />

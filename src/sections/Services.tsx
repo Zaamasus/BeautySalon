@@ -21,7 +21,7 @@ return(
     </p>
   </div>
 
-  <div>
+  <div className="mt-16">
     <CarruselService/>
   </div>
 
