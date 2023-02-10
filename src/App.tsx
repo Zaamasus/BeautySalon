@@ -20,7 +20,7 @@ return (
 
 
   {/*About */}
-  <div className=" max-sm:ml-3  mt-32 ml-14 pb-[172px]  about 8">
+  <div className=" max-sm:mt-20 max-sm:ml-3  mt-32 ml-14 pb-[172px] ">
     <Home />
   </div>
 

@@ -22,9 +22,9 @@ export function Home() {
 
         <div className=" static">
 
-          <div className=" max-sm:hidden static rounded  bg-green-400 w-[581px] h-[405px]"></div>
+          <div className=" max-sm:hidden static rounded max-sm:   bg-green-400 w-[581px] h-[405px]"></div>
 
-        <img className=" max-sm:relative max-sm:-translate-x-0 max-sm:top-0  absolute left-0 -translate-x-[77px] top-[68px] rounded" src="https://plus.unsplash.com/premium_photo-1669675935494-9dae871d6836?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGJlYXV0eSUyMHNhbG9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=561&q=375" 
+        <img className="   max-sm:relative max-sm:-translate-x-0 max-sm:top-0  absolute left-0 -translate-x-[77px] top-[68px] rounded" src="https://plus.unsplash.com/premium_photo-1669675935494-9dae871d6836?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGJlYXV0eSUyMHNhbG9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=561&q=375" 
         alt="homan bauty" />
 
         </div>
